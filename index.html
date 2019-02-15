@@ -4,7 +4,12 @@
     Vinicius Pontes
     vpontessilva@gmail.com
     -->
-
+<style>
+    .download-button{
+        font-weight: bold;
+        font-size: 2vh;
+    }
+</style>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,10 +35,10 @@
             <img src="img/certy_logo.svg" style="border-radius: 50%;" height="30" alt="">
              <span class="quick1">Vinicius Pontes</span>
         </a>
-        <a class="nav-link quick1 black-text navbar-brand">home</a>
+        <!--<a class="nav-link quick1 black-text navbar-brand">home</a>
         <a class="nav-link quick1 black-text navbar-brand">portfólio</a>
-        <a class="nav-link quick1 black-text navbar-brand">contato</a>
-        <a class="nav-link btn-floating peach-gradient"><i class="fa fa-bars"></i></a>     
+        <a class="nav-link quick1 black-text navbar-brand">contato</a> 
+        <a class="nav-link btn-floating peach-gradient"><i class="fa fa-bars"></i></a> -->     
     </nav>    
         
         <div class="row">
@@ -54,7 +59,7 @@
             <div class="card-body text-center">
                 <!--Title-->
                 <h4 class="card-title quick1"><strong>Vinicius Pontes</strong></h4>
-                <h5 class="quick2">Web developer</h5>
+                <h5 class="quick2">Web developer / Mobile developer</h5>
                 <!--Facebook-->
                 <a href="https://facebook.com/vinicius.brigde" target="_blank" type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
                 <!--Twitter-->
@@ -63,8 +68,10 @@
                 <a href="https://github.com/PontesVinicius" target="_blank" type="button" class="btn-floating btn-small btn-github"><i class="fa fa-github"></i></a>
                 <br>
                 <br>
-                <button data-toggle="modal" data-target="#modalSubscription" class="btn aqua-gradient btn-rounded"><i class="fa fa-download mr-1"></i> Download Curriculo</button>  
+                <button type="submit" onclick="window.open('./img/curriculo_vinicius_pontes.pdf')" class="btn aqua-gradient btn-rounded"><i class="fa fa-download mr-1"></i> <span class="download-button">Download Curriculo</span></button>  
             </div>
+
+
             <!--/.Card content-->
         
         </div>
@@ -82,22 +89,23 @@
                         <h4 class="card-title quick1">SOBRE MIM</h4>
                         <!--Text-->
                         <p class="card-text quick2">
-                            Natural do Rio de Janeiro, tenho 23 anos e a 2 anos trabalho na área de programação.
-                            Atualmente trabalhando como Back-End Developer na <a href="http://cubos.io" target="_blank">Cubos.io</a>
-                            (galera massa desenvolvendo)
-                            possuo um projeto pessoal, chamado iFarmace (grave esse nome).
-                            Nas horas vagas costumo assistir séries, ler alguns livros e me considero uma máquina sofisticada que
-                            transforma café em código.
+                            Programador web com conhecimentos em: 
+                            PHP/Laravel, 
+                            JavaScript/React, 
+                            React Native, 
+                            Angular 5+, 
+                            Ionic 3+ 
+                            Linux (Ubuntu, CentOS),
+                            Git Flow, 
+                            Docker, 
+                            mongoDB, 
+                            Firebase
                         </p>
                         <hr>
-                        <h4 class="card-title quick1">INFORMAÇÕES PESSOAIS</h4>
-                        <p class="card-text quick1">Nascimento:<span class="quick2"> 29/09/1993</span></p>
-                        <p class="card-text quick1">Endereço:<span class="quick2"> Nilópolis/RJ</span></p>
-                        <p class="card-text quick1">Endereço:<span class="quick2"> Nilópolis/RJ</span></p>
+                        <h4 class="card-title quick1">INFORMAÇÕES</h4>
                         <p class="card-text quick1">E-mail:<span class="quick2"> vpontessilva@gmail.com</span></p>
-                        <p class="card-text quick1">Telefone:<span class="quick2"> (24) 9 9880-5354</span></p>
-                        <p class="card-text quick1">Empresa:<span class="quick2"> Cubos.io</span></p>
-                        <a href="#" class="btn btn-outline-primary btn-rounded waves-effect">contato</a>
+                        <p class="card-text quick1">Telefone:<span class="quick2"> (21) 9 9043-5437 </span></p>
+                        <!--<a href="#" class="btn btn-outline-primary btn-rounded waves-effect">contato</a>-->
                     </div>
                 
                 </div><!--/.Card-->
